@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ### Prepare data
 
 ```bash
-python data_prep.py
+python data_prep_final.py
 ```
 
 ### Run baseline (replay only)
