@@ -67,7 +67,7 @@ python ultimate_simulation_engine.py
 ### Compare results
 
 ```bash
-python compare_files.py
+python compare_final_results.py
 ```
 
 ### Make dotted-line charts (PNG)
