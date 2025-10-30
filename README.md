@@ -14,7 +14,7 @@ A lightweight hybrid optimization pipeline for vehicular networks:
 - `data_prep_final.py` → parses `ns3__log.csv`, writes:
   - `rounds_data.csv`, `rsu_initial_stats.csv`, `network_parameters.json`, `rsu_round_features.csv`
 - `ultimate_simulation_engine.py` → runs **BASELINE** (replay) or **OPTIMIZED** (VANETomo + GRNN)
-- `compare_files.py` → prints mean metrics and % deltas
+- `compare_final_results.py` → prints mean metrics and % deltas
 - `visualization.py` → saves dotted-line PNGs for throughput/delay comparisons
 
 **Expected input log columns:**  
